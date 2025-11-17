@@ -4,6 +4,7 @@ from pydub import AudioSegment
 import io
 
 app = Flask(__name__)
+application = app
 
 # Global buffer to store chunks
 audio_chunks = []
